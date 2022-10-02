@@ -29,5 +29,19 @@ const func = document.getElementById('btn');
 
 func.addEventListener("click" , function()
 {
+    document.getElementById("copy-btn").innerHTML = "Copy";
     getquotes();
 });
+
+
+function copyQuote()
+{
+  //  console.log(quotetext.innerHTML);
+    
+    let v = quotetext.innerHTML;
+    //console.log(v);
+    navigator.clipboard.writeText(v);
+
+    document.getElementById("copy-btn").innerHTML = "Copied!";
+}
+
