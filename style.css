@@ -52,7 +52,7 @@
     display: flex;
     margin: 10px;
 }
-#btn{
+#btn,#copy-btn{
     text-align: center;
     height: 39px;
     width: 97px;
