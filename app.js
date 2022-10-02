@@ -29,6 +29,7 @@ const func = document.getElementById('btn');
 
 func.addEventListener("click" , function()
 {
+    document.getElementById("copy-btn").innerHTML = "Copy";
     getquotes();
 });
 
