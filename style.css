@@ -1,14 +1,23 @@
+body{
+    background-image:  url("https://wallpaperaccess.com/full/1625487.jpg");
+    color: white;
+}
+.card-title{
+    color: black;
+
+}
 #quotecontainer{
     border: 2px solid black;
     width: 50%;
     display: block;
     margin: 190px auto;
     border-radius: 12px;
-    box-shadow: 3px 5px 21px 5px;
+    box-shadow: 3px 5px 21px 5px rgb(156, 235, 255) ;
 }
 
 
 .quoteheading{
+    color: black;
     text-align: center;
     font-size: 8vh;
 }
@@ -66,6 +75,14 @@
     margin: auto;
     margin-bottom: 12px;
 }
+#copy-btn:hover{
+color: aqua;
+border-color: aqua;
+}
+#btn:hover{
+    border-color: aqua;
+    color: aqua;
+    }
 .author{
     font-size: 4vh;
     /* margin-left: 198px; */
