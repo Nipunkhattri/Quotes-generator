@@ -1,17 +1,106 @@
-#quotecontainer{
-    border: 2px solid black;
-    width: 50%;
-    display: block;
-    margin: 190px auto;
-    border-radius: 12px;
-    box-shadow: 3px 5px 21px 5px;
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f9fbe2;
+    color: white;
+    font-family: 'Mulish', sans-serif;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#quotecontainer{
+    min-width: 40vw;
+    box-sizing: border-box;
+    /* border:0.5px solid #b1b1b1; */
+    box-shadow: 3px 3px 6px -2px #7e7e7ebf;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #D0FFAC;
+    position: relative;
+}
 
 .quoteheading{
+    color: black;
     text-align: center;
-    font-size: 8vh;
+    font-size: 4vh;
+    margin: 2vw;
+    padding: 1vw;
 }
+
+.quote_block{
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding:1vw;
+    margin:2vw;
+    position: relative;
+}
+
+.wrapper{
+    position:relative;
+    box-sizing: border-box;
+}
+
+#copy-btn{
+    position: absolute;
+    bottom: 100%;
+    left: 100%;
+    transform: translate(-50%,50%);
+    height: 3vw;
+    width: 3vw;
+}
+
+.circle-button{
+    border-radius: 50%;
+    color: rgb(68, 68, 68);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: white;
+}
+
+.quote_area{
+    font-size: 2.5vh;
+    color: rgb(58, 58, 58);
+    border: 2px solid black;
+    margin: 1vw 0 1vw 0;
+    border-radius: 10px;
+    padding: 1vw 2vw 1vw 2vw;
+}
+
+.author{
+    font-size: 2vh;
+    color: rgb(133, 133, 133);
+}
+/* button{
+    text-align: center;
+    height: 39px;
+    width: 97px;
+    border-radius: 9px;
+    margin-right: 15px;
+    color: black;
+    background-color: #a79ad2;
+    font-size: 16px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    margin-bottom: 12px;
+
+} */
+
+button:hover{
+    box-shadow: 3px 3px 6px -2px #7e7e7ebf;
+}
+
+.card-title{
+    color: black;
+}
+
 
 .para{
     text-align: center;
@@ -25,14 +114,6 @@
 }
 
 
-.quote_area{
-    display: flex;
-    text-align: center;
-    font-size: 4vh;
-    /* margin-left: 79px; */
-    display: block;
-    margin: auto;
-}
 
 .downheading{
     text-align: end;
@@ -52,25 +133,30 @@
     display: flex;
     margin: 10px;
 }
-#btn,#copy-btn{
+#btn{
+    background-color: rgb(37, 211, 102);
+    border-radius: 1000px;
     text-align: center;
-    height: 39px;
-    width: 97px;
-    border-radius: 9px;
-    margin-right: 15px;
-    color: black;
-    background-color: #a79ad2;
-    font-size: 16px;
-    cursor: pointer;
-    display: block;
-    margin: auto;
-    margin-bottom: 12px;
+    color: white;
+    border: none;
+    padding: 1vw;
+    margin:1vw 2vw 2vw 2vw;
+    font-size: 2vh;
+    width: 40%;
 }
-.author{
-    font-size: 4vh;
-    /* margin-left: 198px; */
-    display: block;
-    margin: auto;
-    text-align: center;
-    margin-bottom: 10px;
+
+.twitter-btn{
+    position: absolute;
+    top: 100%;
+    left: 100%;
+    height: 4vw;
+    width: 4vw;
+    color: rgb(0,172,238);
+    font-size: 2.5vh;
+    transform: translate(-50%,-50%);
+    border:0.5px solid rgba(227, 227, 227, 0.838);
+}
+
+a{
+    text-decoration: none;
 }
