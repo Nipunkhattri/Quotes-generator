@@ -146,6 +146,10 @@ button:hover{
     width: 40%;
 }
 
+#btn:hover, .twitter-btn:hover, .circle-button:hover {
+    cursor: pointer;
+}
+
 .twitter-btn{
     position: absolute;
     top: 100%;
