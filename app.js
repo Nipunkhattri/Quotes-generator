@@ -31,7 +31,7 @@ const func = document.getElementById('btn');
 
 func.addEventListener("click" , function()
 {
-    document.getElementById("copy-btn").innerHTML = "Copy";
+    document.getElementById("copy-btn").style.boxShadow = "None";;
     getquotes();
 });
 
@@ -44,7 +44,7 @@ function copyQuote()
     //console.log(v);
     navigator.clipboard.writeText(v);
 
-    document.getElementById("copy-btn").innerHTML = "Copied!";
+    document.getElementById("copy-btn").style.boxShadow = " 3px 3px 6px -2px #7e7e7ebf";
 }
 
 function tweetQuote(){
