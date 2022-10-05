@@ -39,7 +39,9 @@ func.addEventListener("click" , function()
 function copyQuote()
 {
   //  console.log(quotetext.innerHTML);
-    
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
     let v = quotetext.innerHTML;
     //console.log(v);
     navigator.clipboard.writeText(v);
