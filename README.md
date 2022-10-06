@@ -38,12 +38,13 @@ $ git commit -m "add any comment"
 $ git push
 ```
 
-- Navigate to the original repository and make a pull request
-```
+- Navigate to the original repository and make a pull request:
+
 Showing Your Remotes
-
+```
 $ git remote
-
+```
+```
 $ git remote -v
 ``` 
 Adding Remote Repositories
