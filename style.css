@@ -4,7 +4,12 @@ body{
     background-color: #f9fbe2;
     color: white;
     font-family: 'Mulish', sans-serif;
+    background: url('img/2.jpg') no-repeat;
+    background-size: 1600px 800px;
+
+    
 }
+   
 
 .container{
     display: flex;
@@ -20,8 +25,12 @@ body{
     box-shadow: 3px 3px 6px -2px #7e7e7ebf;
     text-align: center;
     border-radius: 10px;
-    background-color: #D0FFAC;
+    background-color: #8cdee0;
     position: relative;
+    background: url('img/3.jpg') no-repeat;
+    background-size: 620px 480px;
+    opacity: 0.85;
+    
 }
 
 .quoteheading{
@@ -38,6 +47,7 @@ body{
     padding:1vw;
     margin:2vw;
     position: relative;
+    
 }
 
 .wrapper{
@@ -66,7 +76,7 @@ body{
 
 .quote_area{
     font-size: 2.5vh;
-    color: rgb(58, 58, 58);
+    color: rgba(13, 14, 15, 0.937);
     border: 2px solid black;
     margin: 1vw 0 1vw 0;
     border-radius: 10px;
@@ -76,7 +86,7 @@ body{
 
 .author{
     font-size: 2vh;
-    color: rgb(133, 133, 133);
+    color: rgb(41, 53, 62);
 }
 /* button{
     text-align: center;
@@ -139,8 +149,8 @@ button:hover{
     border:none;
     color: #fff;
     cursor: pointer;
-    background-color:  rgb(37, 211, 102);
-    box-shadow: inset 0 0 0 0 rgb(37, 211, 102);
+    background-color:  rgb(52, 100, 121);
+    box-shadow: inset 0 0 0 0 rgb(66, 80, 86);
      transition: ease-out 0.4s;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
@@ -150,13 +160,13 @@ button:hover{
   
   
 #btn:hover {
-    border: 2px solid rgb(37, 211, 102);
+    border: 2px solid rgb(16, 22, 26);
     box-shadow: inset 220px 0 0 0 #fff;
-    color: rgb(37, 211, 102);
+    color: rgb(5, 6, 6);
   }
   
 #btn{
-    background-color: rgb(37, 211, 102);
+    background-color: rgb(129, 135, 138);
     border-radius: 1000px;
     text-align: center;
     color: white;
@@ -170,20 +180,20 @@ button:hover{
     cursor: pointer;
 }
 .circle-button{
-    border: 2px solid rgb(37, 211, 102);
-    box-shadow: inset 220px 0 0 0 #fff;
+    border: 2px solid rgb(16, 18, 23);
+    /* box-shadow: inset 220px 0 0 0 rgb(55, 137, 143); */
 
 }
 .circle-button:hover,.twitter-btn:hover{
 
-    background-color:  rgb(37, 211, 102);
-    box-shadow: inset 0 0 0 0 rgb(37, 211, 102);
+    background-color:  rgb(135, 147, 151);
+    box-shadow: inset 0 0 0 0 rgb(11, 67, 79);
      transition: ease-out 0.4s;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     -ms-transition: ease-out 0.4s;
     -o-transition: ease-out 0.4s;
-    color: #fff;
+    color: rgb(114, 120, 123);
   
 }
 .twitter-btn{
@@ -195,7 +205,7 @@ button:hover{
     color: rgb(0,172,238);
     font-size: 2.5vh;
     transform: translate(-50%,-50%);
-    border:0.5px solid rgb(37, 211, 102);
+    border:2px solid rgb(13, 13, 17);
 }
 a{
     text-decoration: none;
