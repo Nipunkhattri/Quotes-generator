@@ -2,17 +2,7 @@ let quotesrealdata = "";
 const quotetext = document.querySelector(".quote_area");
 const quoteauthor = document.querySelector(".author");
 quotetext.innerHTML="click on --New Quotes-- to get quotes";
-window.onload = function () {
-    function changeImage() {   
-        var BackgroundImg=["./img/background.jpg",
-        "./img/image2.jpg",
-        "./img/image1.jpg"
-        ];
-        var i = Math.floor((Math.random() * 3));
-        document.body.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
-    }
-    window.setInterval(changeImage, 5000);
-}
+
 // console.log(quotetext);
 const newquote = () => {
      let rnum = Math.floor(Math.random()*10);
@@ -23,6 +13,12 @@ const newquote = () => {
     quoteauthor.innerHTML =`~ ${quotesrealdata.author}`
     // console.log(quotetext);
     // console.log(quoteauthor);
+    var BackgroundImg=["./img/background.jpg",
+    "./img/image2.jpg",
+    "./img/image1.jpg"
+    ];
+    var i = Math.floor((Math.random() * 3));
+    document.body.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
 }
 let realData = "";
 
