@@ -210,3 +210,6 @@ button:hover{
 a{
     text-decoration: none;
 }
+.twitter-btn ,circle-button{
+    border: none;
+}
